@@ -1,0 +1,185 @@
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-size: 1vw;
+    padding: 0%;
+}
+
+.boxcenter {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+}
+
+.row {
+    float: left;
+    width: 100%;
+    height: 100%;
+}
+
+/* margin bottom */
+.mb {
+    margin-bottom: 20px;
+}
+
+.mb10 {
+    margin-bottom: 10px;
+}
+
+
+.menu {
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    width: 13%;
+    height: auto;
+    position: fixed;
+    margin-top: 70px;
+}
+
+
+/* Admin */
+
+.headeradmin {
+    background-color: black;
+    border: 1px rgb(223, 240, 215) solid;
+    color: rgb(96, 125, 81);
+    border-radius: 5px;
+    padding: 0px 20px 20px;
+    width: 80%;
+    position: fixed;
+    left: 10%;
+    height: 60px;
+    display: flex;
+}
+
+
+.headeradmin h1 {
+    font-size: 2vw;
+    color: rgb(173, 173, 247);
+    width: 150px;
+    /* border-right: 1px solid gray; */
+    height: 50px;
+    position: relative;
+    top: -5px;
+}
+
+.headeradmin h2 {
+    border: none;
+    position: relative;
+    left: 40%;
+    transform: translateX(-50%);
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+
+.menu ul li {
+    list-style: none;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    position: relative;
+    top: -13px;
+    border-radius: 5px;
+}
+
+ul li a {
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+    position: relative;
+    top: 15px;
+}
+
+ul li:hover {
+    background: rgb(139, 193, 247);
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+ul li:hover>a {
+    color: black;
+    text-decoration: none;
+}
+
+.frmtitle {
+    background-color: #eee;
+    border: 1px #ccc solid;
+    color: #666;
+    border-radius: 5px;
+    padding: 0px 20px;
+    width: 83%;
+    float: inline-end;
+    margin-top: 70px;
+    margin-bottom: 10px;
+}
+
+.frmcontent {
+    /* padding: 20px 0px; */
+    width: 83%;
+    float: inline-end;
+}
+
+
+.frmcontent form {
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.frmcontent form input {
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+.frmcontent form select {
+    border-radius: 5px;
+    height: 21px;
+}
+
+.frmcontent table input {
+    margin-bottom: 5px;
+}
+
+.frmcontent table input:hover {
+    background: orange;
+}
+
+/* Table */
+.frmdsloai table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.frmdsloai table th {
+    padding: 20px;
+    background-color: #a9c2e2;
+}
+
+.frmdsloai table td {
+    padding: 10px 10px;
+    border: 1px #ccc solid;
+}
+
+.w3-dropdown-hover {
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    position: relative;
+    top: -13px;
+    border-radius: 5px;
+}
+
+.w3-dropdown-hover button {
+    width: 100%;
+    border-radius: 5px;
+    position: relative;
+    top: 7px;
+    background: black;
+}
+
+.w3-dropdown-hover .w3-button {
+    background: black;
+    color: white;
+    border-radius: 5px;
+}
